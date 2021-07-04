@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tlc.srcs/sources_1/bd/tlc/ip/tlc_axi_gpio_0_0/sim/tlc_axi_gpio_0_0.vhd" \
+"../../../../tlc.srcs/sources_1/bd/tlc/ip/tlc_rst_ps7_0_50M_0/sim/tlc_rst_ps7_0_50M_0.vhd" \
+"../../../../tlc.srcs/sources_1/bd/tlc/ip/tlc_axi_gpio_1_0/sim/tlc_axi_gpio_1_0.vhd" \
+
+# Do not sort compile order
+nosort
